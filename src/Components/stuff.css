@@ -1,0 +1,57 @@
+.darkMode{
+  background: #000217;
+  color: #fff;
+}
+.stuff {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+ }
+ .name{
+  text-align: center;
+  font-size: 2.5rem;
+}
+.basicData{
+  text-align: center;
+  font-size: 1.4rem;
+}
+ .heading{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+ }
+.head{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.institute{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.cgpa{
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  margin-left: 25px;
+}
+.skills{
+  text-transform: capitalize;
+}
+
+/* Education Component */
+.session{
+  float: right;
+  margin-right: .5rem;
+}
+.duration{
+  float: right;
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}

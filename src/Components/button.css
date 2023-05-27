@@ -1,0 +1,47 @@
+.resumebtn{
+    padding: .8rem 1.2rem;
+    margin: .5rem;
+    border: none;
+    background-color: #000;
+    color: #E0EEEE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edu{
+    position: relative;
+}
+.deletebutton{
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: -2.5%;
+    font-size: 1.6rem;
+    border: none;
+    color: crimson;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+}
+.deletebutton:hover{
+    color: #fff;
+    background-color: crimson;
+}
+.deletebutton i{
+    pointer-events: none;
+}
+
+.skill .deletebutton{
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    height: 1.8rem;
+}
+
+/* Dark Mode Button */
+.darkmodebtn{
+    border: none;
+    font-size: 4rem;
+    padding: 0;
+    background-color: transparent;
+}

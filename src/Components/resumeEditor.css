@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%;
+}
+legend{
+    margin-left: 15px;
+    font-size: 1.4rem;
+}
+fieldset{
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 1.5rem;
+}
+
+fieldset input{
+    padding: .5rem .0rem .5rem .5rem;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+}
+fieldset textarea{
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
+form{
+    margin-bottom: 1.8rem;
+    max-width: calc(100vw - 800px);
+}
+hr{
+    border: .15rem solid #000;
+    margin-bottom: 1rem;
+}
+textarea{
+    max-width: calc(100vw - 800px);
+}
+.heading{
+    font-size: 2rem;
+}
+.bigSpace{
+    width: 33rem;
+}
+.build{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
