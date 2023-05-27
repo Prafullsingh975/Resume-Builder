@@ -71,7 +71,7 @@ const Resume = () => {
     document.querySelector('*').style.margin = "0 auto";
     document.querySelector('.border').style.border = "none";
     document.querySelector('form').style.maxWidth='700px'
-    document.querySelector().style.maxWidth='700px'
+    // document.querySelector(textArea).style.maxWidth='700px'
     window.print();
   };
   const mode = () => {
